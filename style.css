@@ -210,7 +210,8 @@ section {
   overflow: hidden;
 
   & .title {
-    margin-top: 80px;
+    position: relative;
+    top: 50px;
     font-size: 1.5em;
     font-weight: bold;
     color: var(--color-primary);
@@ -231,7 +232,7 @@ section {
       align-items: center;
 
       & .image {
-        height: 37.5em;
+        height: 25em;
         border-radius: 20px;
         overflow: hidden;
         margin-right: 20px;
@@ -252,8 +253,10 @@ section {
       float: right;
       font-size: 20px;
       color: var(--color-primary);
-
-      #abrir {
+      border-radius: 20px;
+      padding: 20px;
+      background: white;
+       & #abrir{
         padding: 8px 10px;
         font-size: 16px;
         background-color: var(--color-primary);
@@ -304,9 +307,7 @@ section {
         padding: 50px;
       }
 
-      & img {
-        width: 200px;
-      }
+     
 
       #cerrar {
         padding: 8px 10px;
